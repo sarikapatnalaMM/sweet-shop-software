@@ -9,6 +9,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
 :root {
     --blue: #4e73df;
     --indigo: #6610f2;
@@ -11737,7 +11740,7 @@ a:focus {
     .sidebar .nav-item .collapsing {
         margin: 0 1rem
     }
-
+ 
     .sidebar .nav-item .nav-link {
         display: block;
         width: 100%;
@@ -11753,7 +11756,13 @@ a:focus {
 
     .sidebar .nav-item .nav-link span {
         font-size: .85rem;
-        display: inline
+        display: inline;
+        color: #000;
+        font-family: "Readex Pro";
+        font-size: 21.6px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 
     .sidebar .nav-item .nav-link[data-toggle=collapse]::after {
