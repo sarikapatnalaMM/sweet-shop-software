@@ -9,9 +9,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
     --blue: #4e73df;
     --indigo: #6610f2;
@@ -11768,7 +11768,7 @@ a:focus {
 
 
     }
- 
+
 
 
     .p_tag {
@@ -12712,163 +12712,208 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 
-.col-md-4.staff1 {
-    border: 1px solid #7878789e;
-    height: 400px;
-    width: 15%;
-    border-radius: 15px;
-    padding: 30px 0px 0px 20px;
-    margin-right: 21px;
-  }
+.ul_style {
+    list-style-type: none;
+}
 
-  .col-md-12.staffBox {
-    display: flex;
-    margin-top: 41px;
-  }
-
-  .formStaffBox {
-    display: flex;
-    justify-content: space-between;
+.add_staff_list_detils {
+    color: #ffffff;
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-top: 30px;
+    padding: 10px;
     margin-bottom: 10px;
-  }
+    background-color: black;
+    border-radius: 8px;
+    /* Space between list items */
 
-  h6.staffhead {
-    color: white;
-    background: black;
-    width: 84%;
-    padding: 4px 8px 6px 24px;
-    font-size: 14px;
+    /* Indicate that the item is clickable */
+}
+
+.staff_list_detils {
+    color: #000;
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* Space between list items */
+    cursor: pointer;
+    /* Indicate that the item is clickable */
+}
+
+.staff_list_detils.active {
+    background-color: #F4F5F9;
+    border-radius: 6px;
+
+}
+
+
+.ul_border {
+    /* border: 1px solid #9A9A9A; */
+    margin: 15px;
+    border-radius: 12px;
+    border: 0.5px solid #9A9A9A;
+    background: #FFF;
+    box-shadow: 0px 12px 36px 0px rgba(220, 224, 249, 0.25);
+}
+
+.td_id_num {
+    color: #606060;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.td_id_mob {
+    color: #1A2B88;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.td_profile_pic {
+    width: 50px;
+    /* Adjust as needed */
+    height: 50px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    /* Makes the image round */
+    margin-right: 10px;
+    /* Space between image and name */
+    vertical-align: middle;
+    /* Aligns the image with the text */
+}
+
+
+.staff_dtls {
+    color: #000;
+    font-family: "Readex Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.kkd_brnch {
+    color: #404040;
+    font-family: "Readex Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.th_names {
+    color: #404040;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.table_bg {
+    background-color: #F4F5F9;
+
+}
+
+.table_stf {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_stf th,
+.table_stf td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+}
+
+.th_names {
+    background-color: #F4F5F9;
+    text-align: left;
+}
+
+.tr_hover:hover {
+    background-color: #F4F5F9;
+}
+
+.edit_icon {
+    color: grey;
+    border: none;
+    background-color: #F4F5F9;
+    width: 35px;
+    height: 35px;
     border-radius: 5px;
-    margin-left: 1px;
-  }
-  li.StaffLi {
-    color: black;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 20px 0px 25px 60px;
-  }
+}
 
-  .col-md-8.staff2 {
-    border: 1px solid #7878789e;
-    /* height: 700px; */
-    width: 80%;
-    border-radius: 15px;
-    padding: 30px 40px 0px 40px;
-  }
-  .formStaffBox {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
+.dlt_icon {
+    color: red;
+    border: none;
+    background-color: #F4F5F9;
+    width: 35px;
+    border-radius: 5px;
+    height: 35px;
+}
 
-  h6.AddStaff {
-    color: black;
-    font-size: 20px;
-  }
-  h6.KakinadaBranch {
-    color: blue;
-    margin-right: 53px;
-    font-size: 20px;
-  }
-  svg.kkdIcon {
-    font-size: 5px !important;
-    margin-left: 166px;
-    position: relative;
-    top: -17px;
-    color: blue;
-  }
-  .staffFrm {
-    display: flex;
-    justify-content: space-between;
-  }
-  .staffFrm1 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-  }
-  .uploadImg {
-    border-radius: 10px;
-    border: 0.674px dashed var(--button-stroke2, rgba(82, 76, 76, 0.38));
-    background: var(--button-colour, #fff);
-    width: 390px;
-    height: 111px;
-    flex-shrink: 0;
-  }.col-md-6.inputbox {
-    width: 46%;
-    margin-bottom: 10px;
-  }
-  label.control-label.mb-2.inputIn {
-    font-size: 15px;
-    font-weight: 500;
-  }
-  input.form-control.inputInn {
-    background: #e8e9ef;
-    padding: 8px 0px 8px 5px;
-    margin-top: 8px;
-    border: none;
-  }
-  button.back {
-    display: flex;
-    width: 97px;
-    padding: 6px 11px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #c3d1ee;
-    border: none;
-    font-size: 17px;
-    margin-top: 33px;
-    color: #1558e2;
-    margin-left: -118px;
-  }
-  button.back:hover {
-    display: flex;
-    width: 97px;
-    padding: 6px 11px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: white;
-    border: none;
-    font-size: 17px;
-    margin-top: 33px;
-    color: #4272d7;
-    margin-left: -118px;
-    border: 1px solid #4272d7;
-  }
+.last_back_submit {
+    padding-top: 35px !important;
+}
 
-  button.submit {
-    display: flex;
-    width: 97px;
-    padding: 6px 11px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.back_btn_staff {
     border-radius: 10px;
-    background: #4272d7;
+    background: #E7EEFD;
+    color: #0A65CC;
     border: none;
-    font-size: 17px;
-    margin-top: 33px;
-    color: #fdfbff;
-  }
-  button.submit:hover {
-    display: flex;
-    width: 97px;
-    padding: 6px 11px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    color: #0A65CC;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.back_btn_staff:hover {
+    background: #ffffff;
+    border: 1px solid  #0A65CC;
+}
+.submit_btn_staff{
     border-radius: 10px;
-    background: white;
+    background: #0A65CC;
+    color: #ffffff;
     border: none;
-    font-size: 17px;
-    margin-top: 33px;
-    color: #4272d7;
-    border: 1px solid #4272d7;
-  }
+    color: #0A65CC;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.submit_btn_staff{
+    background: #ffffff;
+    border: 1px solid  #0A65CC;
+    color:#0A65CC ;
+}
