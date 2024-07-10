@@ -11740,7 +11740,7 @@ a:focus {
     .sidebar .nav-item .collapsing {
         margin: 0 1rem
     }
- 
+
     .sidebar .nav-item .nav-link {
         display: block;
         width: 100%;
@@ -11748,6 +11748,8 @@ a:focus {
         padding: 1rem;
         width: 14rem
     }
+
+
 
     .sidebar .nav-item .nav-link i {
         font-size: .85rem;
@@ -11759,10 +11761,101 @@ a:focus {
         display: inline;
         color: #000;
         font-family: "Readex Pro";
-        font-size: 21.6px;
+        font-size: 18.6px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+
+
+    }
+ 
+
+
+    .p_tag {
+        margin-left: 30px;
+
+        /* display: inline; */
+        color: white;
+        font-family: "Readex Pro";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+    }
+
+    /* Initial styles */
+    .li_tag .anc_tag .p_tag,
+    .li_tag .anc_tag .icon_tag {
+        color: black;
+        fill: black;
+        /* This is for the SVG icon color */
+    }
+
+
+    .p_tag:hover {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 10px;
+        background-color: black;
+        border-radius: 6px;
+    }
+
+    .anc_tag:hover .p_tag,
+    .anc_tag:hover .icon_tag {
+        color: white;
+        transition: all 0.4s;
+
+    }
+
+    /* Specific style for SVG icon fill on hover */
+    .p_tag:hover .icon_tag path {
+        fill: white;
+
+        /* This targets the SVG path to change its color */
+    }
+
+
+
+
+    .need_sapce {
+        margin: 10px;
+        margin-left: 30px;
+    }
+
+    .nav_color {
+        color: #000;
+    }
+
+    .nav_color:hover {
+        color: white;
+        background-color: #000;
+        padding: 10px;
+    }
+
+    .icon_col_block {
+        color: red !important;
+    }
+
+
+    .side_bar_color {
+        margin: 10px;
+        margin-left: 30px;
+        color: #000;
+
+    }
+
+    .side_bar_color:hover {
+        font-size: .85rem;
+        display: inline;
+        color: white;
+        font-family: "Readex Pro";
+        font-size: 18.6px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: #000;
+
     }
 
     .sidebar .nav-item .nav-link[data-toggle=collapse]::after {
@@ -12617,3 +12710,165 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
     width: 100%
 }
+
+
+.col-md-4.staff1 {
+    border: 1px solid #7878789e;
+    height: 400px;
+    width: 15%;
+    border-radius: 15px;
+    padding: 30px 0px 0px 20px;
+    margin-right: 21px;
+  }
+
+  .col-md-12.staffBox {
+    display: flex;
+    margin-top: 41px;
+  }
+
+  .formStaffBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  h6.staffhead {
+    color: white;
+    background: black;
+    width: 84%;
+    padding: 4px 8px 6px 24px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 1px;
+  }
+  li.StaffLi {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 0px 25px 60px;
+  }
+
+  .col-md-8.staff2 {
+    border: 1px solid #7878789e;
+    /* height: 700px; */
+    width: 80%;
+    border-radius: 15px;
+    padding: 30px 40px 0px 40px;
+  }
+  .formStaffBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  h6.AddStaff {
+    color: black;
+    font-size: 20px;
+  }
+  h6.KakinadaBranch {
+    color: blue;
+    margin-right: 53px;
+    font-size: 20px;
+  }
+  svg.kkdIcon {
+    font-size: 5px !important;
+    margin-left: 166px;
+    position: relative;
+    top: -17px;
+    color: blue;
+  }
+  .staffFrm {
+    display: flex;
+    justify-content: space-between;
+  }
+  .staffFrm1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .uploadImg {
+    border-radius: 10px;
+    border: 0.674px dashed var(--button-stroke2, rgba(82, 76, 76, 0.38));
+    background: var(--button-colour, #fff);
+    width: 390px;
+    height: 111px;
+    flex-shrink: 0;
+  }.col-md-6.inputbox {
+    width: 46%;
+    margin-bottom: 10px;
+  }
+  label.control-label.mb-2.inputIn {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  input.form-control.inputInn {
+    background: #e8e9ef;
+    padding: 8px 0px 8px 5px;
+    margin-top: 8px;
+    border: none;
+  }
+  button.back {
+    display: flex;
+    width: 97px;
+    padding: 6px 11px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #c3d1ee;
+    border: none;
+    font-size: 17px;
+    margin-top: 33px;
+    color: #1558e2;
+    margin-left: -118px;
+  }
+  button.back:hover {
+    display: flex;
+    width: 97px;
+    padding: 6px 11px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: white;
+    border: none;
+    font-size: 17px;
+    margin-top: 33px;
+    color: #4272d7;
+    margin-left: -118px;
+    border: 1px solid #4272d7;
+  }
+
+  button.submit {
+    display: flex;
+    width: 97px;
+    padding: 6px 11px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #4272d7;
+    border: none;
+    font-size: 17px;
+    margin-top: 33px;
+    color: #fdfbff;
+  }
+  button.submit:hover {
+    display: flex;
+    width: 97px;
+    padding: 6px 11px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: white;
+    border: none;
+    font-size: 17px;
+    margin-top: 33px;
+    color: #4272d7;
+    border: 1px solid #4272d7;
+  }
