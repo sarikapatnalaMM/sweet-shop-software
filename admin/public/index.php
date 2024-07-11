@@ -9,11 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sweet-Shop</title>
+    <title>Sweet-Shop-soft</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <linl href="css/sb-admin-2.css" rel="stylesheet">
@@ -21,10 +23,10 @@
 
 </head>
 
-<body id="page-top" >
+<body id="page-top">
 
     <!-- Page Wrapper -->
-    <div id="wrapper" >
+    <div id="wrapper">
 
         <!-- Sidebar -->
         <?php
@@ -50,16 +52,16 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                         
+
                     </div>
 
 
                     <!-- Content Row -->
                     <style>
-                        .card-custom {
-                            margin: 6px;
-                            /* Reset margin to prevent extra space */
-                        }
+                    .card-custom {
+                        margin: 6px;
+                        /* Reset margin to prevent extra space */
+                    }
                     </style>
                     </head>
 
@@ -124,8 +126,10 @@
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
                             <div class="footer-widget__copyright">
-                                <p class="mini_text" style="color:black"> ©2024 Ask-Oncologist . All Rights Reserved. Designed &
-                                    Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi
+                                <p class="mini_text" style="color:black"> ©2024 Ask-Oncologist . All Rights Reserved.
+                                    Designed &
+                                    Developed by <a href="https://bhavicreations.com/" target="_blank"
+                                        style="text-decoration: none;color:black">Bhavi
                                         Creations</a></p>
                             </div>
                         </div>
@@ -145,7 +149,8 @@
         </a>
 
         <!-- Logout Modal-->
-        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
