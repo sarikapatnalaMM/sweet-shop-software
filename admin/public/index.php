@@ -55,7 +55,7 @@
                 <section>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-2 ul_border">
+                            <div class="col-md-4 col-lg-2 ul_border">
                                 <ul class="ul_style">
                                     <li id="addStaff" class="add_staff_list_detils open_table">+ Add Staff</li>
                                     <li id="details" class="staff_list_detils open_table active">Details</li>
@@ -87,7 +87,7 @@
                                 </script>
                             </div>
 
-                            <div class="col-md-9 ul_border">
+                            <div class="col-md-11   col-lg-9 ul_border">
                                 <div class="container">
                                     <div class="row d-flex flex-row justify-content-between pt-4 pb-3">
                                         <div class="">
@@ -107,72 +107,63 @@
                                     <form method="post" enctype="multipart/form-data">
                                         <div class="form-group">
                                             <div class="row">
-                                                <!-- <div class="formStaffBox">
-                                                    <div class="col-md-6">
-                                                        <h6 class="AddStaff">Add Staff People</h6>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h6 class="KakinadaBranch">Kakinada Branch</h6><svg class="kkdIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-                                                            <path d="M17.7178 4.96555L10 12.1861L2.28216 4.96555C1.67358 4.33767 1.06501 4.32459 0.456432 4.9263C-0.152144 5.52802 -0.152144 6.11665 0.456432 6.6922L9.08714 14.8546C9.30844 15.1162 9.61272 15.247 10 15.247C10.3873 15.247 10.6916 15.1162 10.9129 14.8546L19.5436 6.6922C20.1521 6.11665 20.1521 5.52802 19.5436 4.9263C18.935 4.32459 18.3264 4.33767 17.7178 4.96555Z" fill="#202224" />
-                                                        </svg>
-                                                    </div>
-                                                </div> -->
+                                              
 
-                                                <div class="col-md-6">
+                                                <div class="col-md-6  mt-5">
 
-                                                    <label class="control-label mb-2 inputIn">Upload Photo</label>
-                                                    <input type="file" class="form-control inputInn" name="buildermail">
+                                                    <label class="control-label mb-2 field_txt">Upload Photo</label>
+                                                    <input type="file" class="form-control field_input_bg" name="file">
                                                 </div>
-                                                <div class="form-group col-md-6 inputbox">
-                                                    <label class="control-label mb-2 inputIn">Person Name </label>
-                                                    <input type="text" class="form-control inputInn" name="buildermail">
+                                                <div class=" col-md-6   mt-5">
+                                                    <label class="control-label mb-2 field_txt">Person Name </label>
+                                                    <input type="text" class="form-control field_input_bg" name="name">
 
 
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <label class="control-label mb-2 inputIn">Address</label>
-                                                    <input type="text" class="form-control inputInn" name="buildermail">
+                                                <div class="col-md-6 mt-5">
+                                                    <label class="control-label mb-2 field_txt">Address</label>
+                                                    <input type="text" class="form-control field_input_bg" name="address">
 
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <label class="control-label mb-2 inputIn">Age</label>
-                                                    <input type="text" class="form-control inputInn" name="buildermail">
+                                                <div class="col-md-6  mt-5">
+                                                    <label class="control-label mb-2 field_txt">Age</label>
+                                                    <input type="number" class="form-control field_input_bg" name="age">
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <label class="control-label mb-2 inputIn">Account No.</label>
-                                                    <input type="text" class="form-control inputInn" name="buildermail">
+                                                <div class="col-md-6  mt-5">
+                                                    <label class="control-label mb-2 field_txt">Account No.</label>
+                                                    <input type="number" class="form-control field_input_bg" name="account">
 
 
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <label class="control-label mb-2 inputIn">Phone No.</label>
-                                                    <input type="text" class="form-control inputInn" name="buildermail">
+                                                <div class="col-md-6  mt-5">
+                                                    <label class="control-label mb-2 field_txt">Phone No.</label>
+                                                    <input type="phone" class="form-control field_input_bg" name="phone">
 
 
                                                 </div>
 
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 mt-5">
 
-                                                    <label class="control-label mb-2 inputIn">Salary/Monthly</label>
-                                                    <input type="text" class="form-control inputInn" name="buildermail">
-
-                                                </div>
-                                                <div class="col-md-6">
-
-                                                    <label class="control-label mb-2 inputIn">From Branch</label>
-                                                    <input type="text" class="form-control inputInn" name="buildermail">
+                                                    <label class="control-label mb-2 field_txt">Salary/Monthly</label>
+                                                    <input type="number" class="form-control field_input_bg" name="salary">
 
                                                 </div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 mt-5">
 
-                                                    <label class="control-label mb-2 inputIn">Joining Date</label>
-                                                    <input type="text" class="form-control inputInn" name="buildermail">
+                                                    <label class="control-label mb-2 field_txt">From Branch</label>
+                                                    <input type="text" class="form-control field_input_bg" name="branch">
 
                                                 </div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-6 mt-5">
+
+                                                    <label class="control-label mb-2 field_txt">Joining Date</label>
+                                                    <input type="date" class="form-control field_input_bg" name="joining">
+
+                                                </div>
+                                                <div class="col-md-6 mt-5">
 
 
-                                                    <div class="row last_back_submit  d-flex flex-row justify-content-between  px-3" >
+                                                    <div class="row last_back_submit  d-flex flex-row justify-content-between  px-3">
                                                         <button class="back_btn_staff">Back</button>
                                                         <button class="submit_btn_staff">Submit</button>
 
@@ -180,11 +171,10 @@
 
                                                 </div>
 
-                                                
+
 
                                             </div>
                                         </div>
-
                                     </form>
                                 </div>
 
@@ -387,3 +377,4 @@
 </body>
 
 </html>
+

@@ -12894,11 +12894,16 @@ body.sidebar-toggled footer.sticky-footer {
     background: #ffffff;
     border: 1px solid  #0A65CC;
 }
+.submit_btn_staff:hover {
+    background: #ffffff;
+    border: 1px solid  #0A65CC;
+    color: #0A65CC !important;
+
+}
 .submit_btn_staff{
     border-radius: 10px;
     background: #0A65CC;
-    color: #ffffff;
-    border: none;
+    color: #ffffff !important;   
     color: #0A65CC;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: "Poppins";
@@ -12910,10 +12915,28 @@ body.sidebar-toggled footer.sticky-footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
-
-.submit_btn_staff{
-    background: #ffffff;
+    background: #0A65CC;
     border: 1px solid  #0A65CC;
     color:#0A65CC ;
+}
+.field_txt{
+    color: #524C4C;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.32px;
+}
+
+.field_input_bg{
+    background-color: #F4F5F9   ;
+    border: none;
+}
+
+@media (max-width:1200px) {
+    .staff_list_detils, .add_staff_list_detils {
+    
+        margin-left: -50px;
+    }
 }
