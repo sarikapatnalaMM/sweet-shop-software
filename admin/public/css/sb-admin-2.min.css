@@ -9,9 +9,15 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+<<<<<<< HEAD
 
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+>>>>>>> upstream/main
 :root {
   --blue: #4e73df;
   --indigo: #6610f2;
@@ -11943,7 +11949,343 @@ a:focus {
 
   .sidebar.toggled .sidebar-heading {
     text-align: center;
+<<<<<<< HEAD
   }
+=======
+    margin-bottom: 1rem;
+    cursor: pointer
+}
+
+.sidebar #sidebarToggle::after {
+    font-weight: 900;
+    content: '\f104';
+    font-family: 'Font Awesome 5 Free';
+    margin-right: .1rem
+}
+
+.sidebar #sidebarToggle:hover {
+    text-decoration: none
+}
+
+.sidebar #sidebarToggle:focus {
+    outline: 0
+}
+
+.sidebar.toggled {
+    width: 0 !important;
+    overflow: hidden
+}
+
+.sidebar.toggled #sidebarToggle::after {
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    margin-left: .25rem
+}
+
+.sidebar.toggled .sidebar-card {
+    display: none
+}
+
+.sidebar .sidebar-brand {
+    height: 4.375rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    z-index: 1
+}
+
+.sidebar .sidebar-brand .sidebar-brand-icon i {
+    font-size: 2rem
+}
+
+.sidebar .sidebar-brand .sidebar-brand-text {
+    display: none
+}
+
+.sidebar hr.sidebar-divider {
+    margin: 0 1rem 1rem
+}
+
+.sidebar .sidebar-heading {
+    text-align: center;
+    padding: 0 1rem;
+    font-weight: 800;
+    font-size: .65rem
+}
+
+.sidebar .sidebar-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .875rem;
+    border-radius: .35rem;
+    color: rgba(255, 255, 255, .8);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.sidebar .sidebar-card .sidebar-card-illustration {
+    height: 3rem;
+    display: block
+}
+
+.sidebar .sidebar-card .sidebar-card-title {
+    font-weight: 700
+}
+
+.sidebar .sidebar-card p {
+    font-size: .75rem;
+    color: rgba(255, 255, 255, .5)
+}
+
+@media (min-width:768px) {
+    .sidebar {
+        width: 14rem !important
+    }
+
+    .sidebar .nav-item .collapse {
+        position: relative;
+        left: 0;
+        z-index: 1;
+        top: 0;
+        -webkit-animation: none;
+        animation: none
+    }
+
+    .sidebar .nav-item .collapse .collapse-inner {
+        border-radius: 0;
+        box-shadow: none
+    }
+
+    .sidebar .nav-item .collapsing {
+        display: block;
+        transition: height .15s ease
+    }
+
+    .sidebar .nav-item .collapse,
+    .sidebar .nav-item .collapsing {
+        margin: 0 1rem
+    }
+
+    .sidebar .nav-item .nav-link {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 1rem;
+        width: 14rem
+    }
+
+
+
+    .sidebar .nav-item .nav-link i {
+        font-size: .85rem;
+        margin-right: .25rem
+    }
+
+    .sidebar .nav-item .nav-link span {
+        font-size: .85rem;
+        display: inline;
+        color: #000;
+        font-family: "Readex Pro";
+        font-size: 18.6px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+
+    }
+
+
+
+    .p_tag {
+        margin-left: 30px;
+
+        /* display: inline; */
+        color: white;
+        font-family: "Readex Pro";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+    }
+
+    /* Initial styles */
+    .li_tag .anc_tag .p_tag,
+    .li_tag .anc_tag .icon_tag {
+        color: black;
+        fill: black;
+        /* This is for the SVG icon color */
+    }
+
+
+    .p_tag:hover {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 10px;
+        background-color: black;
+        border-radius: 6px;
+    }
+
+    .anc_tag:hover .p_tag,
+    .anc_tag:hover .icon_tag {
+        color: white;
+        transition: all 0.4s;
+
+    }
+
+    /* Specific style for SVG icon fill on hover */
+    .p_tag:hover .icon_tag path {
+        fill: white;
+
+        /* This targets the SVG path to change its color */
+    }
+
+
+
+
+    .need_sapce {
+        margin: 10px;
+        margin-left: 30px;
+    }
+
+    .nav_color {
+        color: #000;
+    }
+
+    .nav_color:hover {
+        color: white;
+        background-color: #000;
+        padding: 10px;
+    }
+
+    .icon_col_block {
+        color: red !important;
+    }
+
+
+    .side_bar_color {
+        margin: 10px;
+        margin-left: 30px;
+        color: #000;
+
+    }
+
+    .side_bar_color:hover {
+        font-size: .85rem;
+        display: inline;
+        color: white;
+        font-family: "Readex Pro";
+        font-size: 18.6px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: #000;
+
+    }
+
+    .sidebar .nav-item .nav-link[data-toggle=collapse]::after {
+        width: 1rem;
+        text-align: center;
+        float: right;
+        vertical-align: 0;
+        border: 0;
+        font-weight: 900;
+        content: '\f107';
+        font-family: 'Font Awesome 5 Free'
+    }
+
+    .sidebar .nav-item .nav-link[data-toggle=collapse].collapsed::after {
+        content: '\f105'
+    }
+
+    .sidebar .sidebar-brand .sidebar-brand-icon i {
+        font-size: 2rem
+    }
+
+    .sidebar .sidebar-brand .sidebar-brand-text {
+        display: inline
+    }
+
+    .sidebar .sidebar-heading {
+        text-align: left
+    }
+
+    .sidebar.toggled {
+        overflow: visible;
+        width: 6.5rem !important
+    }
+
+    .sidebar.toggled .nav-item .collapse {
+        position: absolute;
+        left: calc(6.5rem + 1.5rem / 2);
+        z-index: 1;
+        top: 2px;
+        -webkit-animation-name: growIn;
+        animation-name: growIn;
+        -webkit-animation-duration: .2s;
+        animation-duration: .2s;
+        -webkit-animation-timing-function: transform cubic-bezier(.18, 1.25, .4, 1), opacity cubic-bezier(0, 1, .4, 1);
+        animation-timing-function: transform cubic-bezier(.18, 1.25, .4, 1), opacity cubic-bezier(0, 1, .4, 1)
+    }
+
+    .sidebar.toggled .nav-item .collapse .collapse-inner {
+        box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15);
+        border-radius: .35rem
+    }
+
+    .sidebar.toggled .nav-item .collapsing {
+        display: none;
+        transition: none
+    }
+
+    .sidebar.toggled .nav-item .collapse,
+    .sidebar.toggled .nav-item .collapsing {
+        margin: 0
+    }
+
+    .sidebar.toggled .nav-item:last-child {
+        margin-bottom: 1rem
+    }
+
+    .sidebar.toggled .nav-item .nav-link {
+        text-align: center;
+        padding: .75rem 1rem;
+        width: 6.5rem
+    }
+
+    .sidebar.toggled .nav-item .nav-link span {
+        font-size: .65rem;
+        display: block
+    }
+
+    .sidebar.toggled .nav-item .nav-link i {
+        margin-right: 0
+    }
+
+    .sidebar.toggled .nav-item .nav-link[data-toggle=collapse]::after {
+        display: none
+    }
+
+    .sidebar.toggled .sidebar-brand .sidebar-brand-icon i {
+        font-size: 2rem
+    }
+
+    .sidebar.toggled .sidebar-brand .sidebar-brand-text {
+        display: none
+    }
+
+    .sidebar.toggled .sidebar-heading {
+        text-align: center
+    }
+>>>>>>> upstream/main
 }
 
 .sidebar-light .sidebar-brand {
@@ -12700,6 +13042,7 @@ footer.sticky-footer .copyright {
 }
 
 body.sidebar-toggled footer.sticky-footer {
+<<<<<<< HEAD
   width: 100%;
 }
 input.form-control.bg-light.border-0.small.searchBar {
@@ -12743,3 +13086,237 @@ span.dashLi:hover {
 /* a.nav-link.collapsed {
   padding: 30px 0px 25px 47px !important;
 } */
+=======
+    width: 100%
+}
+
+
+.ul_style {
+    list-style-type: none;
+}
+
+.add_staff_list_detils {
+    color: #ffffff;
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 8px;
+    /* Space between list items */
+
+    /* Indicate that the item is clickable */
+}
+
+.staff_list_detils {
+    color: #000;
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* Space between list items */
+    cursor: pointer;
+    /* Indicate that the item is clickable */
+}
+
+.staff_list_detils.active {
+    background-color: #F4F5F9;
+    border-radius: 6px;
+
+}
+
+
+.ul_border {
+    /* border: 1px solid #9A9A9A; */
+    margin: 15px;
+    border-radius: 12px;
+    border: 0.5px solid #9A9A9A;
+    background: #FFF;
+    box-shadow: 0px 12px 36px 0px rgba(220, 224, 249, 0.25);
+}
+
+.td_id_num {
+    color: #606060;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.td_id_mob {
+    color: #1A2B88;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.td_profile_pic {
+    width: 50px;
+    /* Adjust as needed */
+    height: 50px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    /* Makes the image round */
+    margin-right: 10px;
+    /* Space between image and name */
+    vertical-align: middle;
+    /* Aligns the image with the text */
+}
+
+
+.staff_dtls {
+    color: #000;
+    font-family: "Readex Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.kkd_brnch {
+    color: #404040;
+    font-family: "Readex Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.th_names {
+    color: #404040;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.table_bg {
+    background-color: #F4F5F9;
+
+}
+
+.table_stf {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_stf th,
+.table_stf td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+}
+
+.th_names {
+    background-color: #F4F5F9;
+    text-align: left;
+}
+
+.tr_hover:hover {
+    background-color: #F4F5F9;
+}
+
+.edit_icon {
+    color: grey;
+    border: none;
+    background-color: #F4F5F9;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.dlt_icon {
+    color: red;
+    border: none;
+    background-color: #F4F5F9;
+    width: 35px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.last_back_submit {
+    padding-top: 35px !important;
+}
+
+.back_btn_staff {
+    border-radius: 10px;
+    background: #E7EEFD;
+    color: #0A65CC;
+    border: none;
+    color: #0A65CC;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.back_btn_staff:hover {
+    background: #ffffff;
+    border: 1px solid  #0A65CC;
+}
+.submit_btn_staff:hover {
+    background: #ffffff;
+    border: 1px solid  #0A65CC;
+    color: #0A65CC !important;
+
+}
+.submit_btn_staff{
+    border-radius: 10px;
+    background: #0A65CC;
+    color: #ffffff !important;   
+    color: #0A65CC;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Poppins";
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #0A65CC;
+    border: 1px solid  #0A65CC;
+    color:#0A65CC ;
+}
+.field_txt{
+    color: #524C4C;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.32px;
+}
+
+.field_input_bg{
+    background-color: #F4F5F9   ;
+    border: none;
+}
+
+@media (max-width:1200px) {
+    .staff_list_detils, .add_staff_list_detils {
+    
+        margin-left: -50px;
+    }
+}
+>>>>>>> upstream/main

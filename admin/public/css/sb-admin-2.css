@@ -11279,6 +11279,22 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
-.side_bar_color{
-  color: #000 !important;
+
+
+ 
+.nav-item.active .nav-link {
+  background-color: black;
+  color: white;
 }
+
+.nav-link {
+  color: black; /* Default text color */
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: white;
+}
+
+
+ 
